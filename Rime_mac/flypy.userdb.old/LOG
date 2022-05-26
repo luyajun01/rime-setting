@@ -1,0 +1,6 @@
+2022/01/04-14:53:25.913484 7f2c18b70700 Log #8: 8 ops saved to Table #9 OK
+2022/01/04-14:53:25.913542 7f2c18b70700 Archiving /home/tonylu/.config/fcitx/rime/flypy.userdb/000008.log: OK
+2022/01/04-14:53:25.913579 7f2c18b70700 Table #5: 209 entries OK
+2022/01/04-14:53:25.913587 7f2c18b70700 Table #9: 8 entries OK
+2022/01/04-14:53:25.913645 7f2c18b70700 Archiving /home/tonylu/.config/fcitx/rime/flypy.userdb/MANIFEST-000007: OK
+2022/01/04-14:53:25.914249 7f2c18b70700 **** Repaired leveldb /home/tonylu/.config/fcitx/rime/flypy.userdb; recovered 2 files; 3234 bytes. Some data may have been lost. ****

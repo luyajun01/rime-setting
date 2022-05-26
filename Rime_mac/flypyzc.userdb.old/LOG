@@ -1,0 +1,8 @@
+2022/01/04-17:09:46.697105 7fca415f1700 Log #45: 0 ops saved to Table #46 OK
+2022/01/04-17:09:46.697158 7fca415f1700 Archiving /home/tonylu/.config/fcitx/rime/flypyzc.userdb/000045.log: OK
+2022/01/04-17:09:46.697250 7fca415f1700 Table #34: 205 entries OK
+2022/01/04-17:09:46.697317 7fca415f1700 Table #39: 4 entries OK
+2022/01/04-17:09:46.697351 7fca415f1700 Table #42: 205 entries OK
+2022/01/04-17:09:46.697378 7fca415f1700 Table #28: 208 entries OK
+2022/01/04-17:09:46.697494 7fca415f1700 Archiving /home/tonylu/.config/fcitx/rime/flypyzc.userdb/MANIFEST-000044: OK
+2022/01/04-17:09:46.698786 7fca415f1700 **** Repaired leveldb /home/tonylu/.config/fcitx/rime/flypyzc.userdb; recovered 4 files; 14833 bytes. Some data may have been lost. ****

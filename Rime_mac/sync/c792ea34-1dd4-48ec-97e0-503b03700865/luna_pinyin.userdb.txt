@@ -1,0 +1,79 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin.userdb
+#@/db_type	userdb
+#@/rime_version	1.4.0
+#@/tick	96
+#@/user_id	c792ea34-1dd4-48ec-97e0-503b03700865
+ba 	把	c=1 d=0.752014 t=96
+bian ji 	編輯	c=1 d=0.794534 t=96
+bian ji qi 	編輯器	c=1 d=0.810584 t=96
+bu 	不	c=2 d=1.50571 t=96
+bu gou 	不夠	c=1 d=0.965605 t=96
+bu shu xi 	不熟悉	c=1 d=1 t=96
+bu zhou 	步驟	c=1 d=0.778801 t=96
+cai dan lan 	菜單欄	c=1 d=0.798516 t=96
+can kao 	參考	c=1 d=0.909373 t=96
+ce shi 	測試	c=2 d=1.59554 t=96
+che di 	徹底	c=1 d=0.763379 t=96
+da gong gao cheng 	大功告成	c=1 d=0.904837 t=96
+dao 	到	c=1 d=0.869358 t=96
+de 	的	c=4 d=3.51211 t=96
+di gui 	遞歸	c=1 d=0.97531 t=96
+di zhi 	地址	c=1 d=0.847894 t=96
+duan 	端	c=2 d=1.70899 t=96
+duan kou 	端口	c=1 d=0.895834 t=96
+fu wu qi 	服務器	c=1 d=0.856415 t=96
+gao qing chu 	搞清楚	c=1 d=0.767206 t=96
+huan yuan 	還原	c=1 d=0.814647 t=96
+huo zhe 	或者	c=1 d=0.97531 t=96
+ji ke 	即可	c=1 d=0.831104 t=96
+jiang 	將	c=1 d=0.860708 t=96
+jie jue 	解決	c=1 d=0.782705 t=96
+ju ti 	具體	c=1 d=0.774916 t=96
+ju zhen 	矩陣	c=1 d=0.995012 t=96
+le 	了	c=7 d=5.00567 t=96
+lian jie 	鏈接	c=1 d=0.913931 t=96
+luo xia 	落下	c=1 d=0.985112 t=96
+luo xuan 	螺旋	c=1 d=0.99005 t=96
+mo ren 	默認	c=1 d=0.818731 t=96
+pi pei 	匹配	c=1 d=0.923116 t=96
+pin yin 	拼音	c=1 d=0.937067 t=96
+que shi 	確實	c=2 d=1.95581 t=96
+ru xia 	如下	c=1 d=0.786628 t=96
+shang 	上	c=2 d=1.39563 t=96
+she zhi 	設置	c=1 d=0.822835 t=96
+shi yong 	使用	c=2 d=1.94605 t=96
+shou zi mu 	首字母	c=1 d=0.932394 t=96
+shu xi 	熟悉	c=1 d=1.06995 t=96
+shuang pin 	雙拼	c=1 d=1 t=96
+ti 	題	c=1 d=0.980199 t=96
+tian xie 	填寫	c=1 d=0.865022 t=96
+tong guo 	通過	c=1 d=0.843665 t=96
+tu ran 	突然	c=1 d=0.70822 t=96
+wang 	網	c=2 d=1.42035 t=96
+wang luo 	網絡	c=1 d=0.806541 t=96
+wei zhi 	位置	c=1 d=0.900325 t=96
+wen ti 	問題	c=3 d=2.1412 t=96
+wo 	我	c=2 d=2.07129 t=96
+wo le 	我了	c=1 d=0.970446 t=96
+xia wu 	下午	c=1 d=0.744532 t=96
+xiang guan 	相關	c=1 d=0.891366 t=96
+xiao si 	笑死	c=3 d=2.93634 t=96
+xiao si wo 	笑死我	c=1 d=0.995012 t=96
+xu ni 	虛擬	c=1 d=0.802519 t=96
+xu ni ji 	虛擬機	c=2 d=1.50591 t=96
+yan ma 	掩碼	c=1 d=0.88692 t=96
+ye 	頁	c=1 d=1 t=96
+yi ge 	一個	c=1 d=0.740818 t=96
+ying wen 	英文	c=1 d=1 t=96
+zai 	在	c=1 d=0.826959 t=96
+zhe ge 	這個	c=1 d=0.755784 t=96
+zhe yang 	這樣	c=1 d=0.980199 t=96
+zheng 	整	c=1 d=0.729789 t=96
+zhong 	中	c=1 d=0.839457 t=96
+zhong wen 	中文	c=2 d=1.84626 t=96
+zhong wu 	中午	c=1 d=0.704688 t=96
+zhong yu 	終於	c=1 d=0.748264 t=96
+zhu 	主	c=1 d=0.852144 t=96
+zi dian 	字典	c=1 d=0.946485 t=96
+zi wang 	子網	c=1 d=0.882497 t=96

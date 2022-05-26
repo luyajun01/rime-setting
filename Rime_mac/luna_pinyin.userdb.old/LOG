@@ -1,0 +1,8 @@
+2021/12/28-16:17:43.671180 7fbed3bdc700 Log #133: 0 ops saved to Table #134 OK
+2021/12/28-16:17:43.671236 7fbed3bdc700 Archiving /home/tonylu/.config/fcitx/rime/luna_pinyin.userdb/000133.log: OK
+2021/12/28-16:17:43.671313 7fbed3bdc700 Table #103: 8 entries OK
+2021/12/28-16:17:43.671334 7fbed3bdc700 Table #100: 2 entries OK
+2021/12/28-16:17:43.671349 7fbed3bdc700 Table #96: 11 entries OK
+2021/12/28-16:17:43.671362 7fbed3bdc700 Table #110: 18 entries OK
+2021/12/28-16:17:43.671456 7fbed3bdc700 Archiving /home/tonylu/.config/fcitx/rime/luna_pinyin.userdb/MANIFEST-000132: OK
+2021/12/28-16:17:43.672269 7fbed3bdc700 **** Repaired leveldb /home/tonylu/.config/fcitx/rime/luna_pinyin.userdb; recovered 4 files; 1324 bytes. Some data may have been lost. ****

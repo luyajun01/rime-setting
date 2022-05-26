@@ -1,0 +1,5 @@
+2022/01/04-19:57:02.746227 7f7ca6625700 Log #119: 0 ops saved to Table #120 OK
+2022/01/04-19:57:02.746268 7f7ca6625700 Archiving /home/tonylu/.config/fcitx/rime/easy_en.userdb/000119.log: OK
+2022/01/04-19:57:02.746295 7f7ca6625700 Table #117: 10 entries OK
+2022/01/04-19:57:02.746335 7f7ca6625700 Archiving /home/tonylu/.config/fcitx/rime/easy_en.userdb/MANIFEST-000118: OK
+2022/01/04-19:57:02.747309 7f7ca6625700 **** Repaired leveldb /home/tonylu/.config/fcitx/rime/easy_en.userdb; recovered 1 files; 381 bytes. Some data may have been lost. ****

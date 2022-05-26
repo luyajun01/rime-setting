@@ -1,0 +1,22 @@
+# Rime user dictionary
+#@/db_name	easy_en.userdb
+#@/db_type	userdb
+#@/rime_version	1.4.0
+#@/tick	19
+#@/user_id	c792ea34-1dd4-48ec-97e0-503b03700865
+behavior 	behavior	c=1 d=1 t=19
+centered 	centered	c=1 d=1 t=19
+corporation 	corporation	c=1 d=0.99005 t=19
+follow 	follow	c=1 d=1 t=19
+google 	Google	c=1 d=0.99005 t=19
+innovation 	innovation	c=1 d=1 t=19
+jupiter 	jupiter	c=1 d=0.995012 t=19
+multiple 	multiple	c=2 d=1.95084 t=19
+normal 	normal	c=1 d=1 t=18
+process 	process	c=1 d=0.985112 t=19
+proportion 	proportion	c=1 d=0.985112 t=19
+risk 	risk	c=1 d=1 t=19
+selection 	selection	c=1 d=1 t=15
+time 	time	c=1 d=0.980199 t=19
+transform 	transform	c=2 d=1.99501 t=14
+vintage 	vintage	c=1 d=1 t=16

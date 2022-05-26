@@ -1,0 +1,72 @@
+# double_pinyin_flypy.custom.yaml
+# author: Tianshu Wang <volekingsg@gmail.com>
+
+patch:
+  engine/processors:
+    - ascii_compose
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+    - fluency_editor
+
+  translator/dictionary: flypyzc   # 載入朙月拼音擴充詞庫
+  translator/preedit_format: {}                 # 输入双拼码的时候不转化为全拼码
+
+  # 加載 easy_en 依賴
+  "schema/dependencies/@next": easy_en
+  # 載入翻譯英文的碼表翻譯器，取名爲 english
+  "engine/translators/@next": table_translator@english
+  # english 翻譯器的設定項
+  english:
+    dictionary: easy_en
+    spelling_hints: 9
+    enable_completion: true
+    enable_sentence: false
+    initial_quality: -2
+  recognizer/patterns/uppercase: ''
+  speller/alphabet:
+    __include: easy_en.schema:/speller/alphabet
+
+  # 使用自定义词典 custom_phrase.txt
+  "engine/translators/@after last": table_translator@custom_phrase
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+
+  punctuator:
+    import_preset: symbols
+    half_shape:
+      '#' : '#'
+      '*' : '*'
+      '~' : '~'
+      '=' : '='
+
+  # recognizer/patterns/reverse_lookup:
+
+  # 模糊拼音
+  'speller/algebra/@after last': 'abbrev/^(.).+$/$1/'           # 首字母简拼
+  # "speller/algebra/@before 1": xform/^([b-df-hj-np-tv-z])$/$1_/
+  # "speller/algebra/@before 2": derive/([ei])n$/$1ng/            # 模糊拼音 en => eng, in => ing
+  # "speller/algebra/@before 3": derive/([ei])ng$/$1n/            # 模糊拼音 eng => en, ing => in
+  # "speller/algebra/@before 4": derive/^n/l/                     # 模糊拼音 n => l
+  # "speller/algebra/@before 5": derive/^l/n/                     # 模糊拼音 l => n
+  # "speller/algebra/@before 6": derive/ou$/uo/                   # 模糊拼音 ou => uo
+  # "speller/algebra/@before 7": derive/uo$/ou/                   # 模糊拼音 uo => ou
+  # "speller/algebra/@before 8": abbrev/^([a-z]).+$/$1/
+  # "speller/algebra/@before 9": abbrev/^([zcs]h).+$/$1/
+  # "speller/algebra/@before 10": derive/^([zcs])h/$1/            # 模糊拼音 zh, ch, sh => z, c, s
+  # "speller/algebra/@before 11": derive/^([zcs])([^h])/$1h$2/    # 模糊拼音 z, c, s => zh, ch, sh
+
+__patch:
+# Rx: emoji:customize:schema=double_pinyin_flypy {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }
