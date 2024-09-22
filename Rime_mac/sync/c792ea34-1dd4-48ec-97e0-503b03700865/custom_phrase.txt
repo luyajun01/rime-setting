@@ -65,13 +65,10 @@ Android	az
 App Cleaner & Uninstaller	acu
 Chrome	ch	2
 Clubhouse	ch
-ClashX	cla
 Chrome  ch  100
-CleanMyMac X	cmm	1
 Command	cm	1
 Control	ct	2
 CarPlay	cp	1
-CleanShot X	cs
 Download	dl	1
 Enpass	enp
 Emoji	em
@@ -116,26 +113,18 @@ Messenger	ms
 🐂️🍺️	nb	2
 Numbers	nb	1
 1Password	one	2
-OneDrive	one	1
-openwrt	ow
 OK	ok
 Option	ot
 Outlook	ol	2
 outlook.com	ol	1
-Parallels Desktop	pd
-Paragon NTFS	pn
 Photoshop	ps
 Paypal	pp
 Pro	pro
 QQ	qq
 Pages	pg
 readme.md	rm
-ScreenBar Plus	sbp	1
-Shadowrocket	sds	3
 Safari	sf	2
 Shift	sf	1
-SHIELD TV	stv
-Spotify	sp	1
 Spark	sp	2
 Sublime Text	sbt
 Telegram	tg
@@ -148,7 +137,5 @@ V2EX	ve
 WhatsApp	wa
 WeChat	wc	2
 Windows	win
-YouTube	yt
-YouTube Premium	yp
 又双叒叕	yyy
 人	rf      1

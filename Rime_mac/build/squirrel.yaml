@@ -1,8 +1,8 @@
 __build_info:
-  rime_version: 1.7.3
+  rime_version: 1.11.2
   timestamps:
-    squirrel: 1616729652
-    squirrel.custom: 1642216781
+    squirrel: 1717774589
+    squirrel.custom: 1726937531
 app_options:
   com.agilebits.onepassword7:
     ascii_mode: true
@@ -55,7 +55,8 @@ app_options:
   org.gnu.Emacs:
     ascii_mode: true
 chord_duration: 0.1
-config_version: 0.37
+config_version: 1.0
+keyboard_layout: last
 preset_color_schemes:
   apathy:
     author: "LIANG Hai"
@@ -63,8 +64,10 @@ preset_color_schemes:
     border_height: 0
     border_width: 8
     candidate_format: "%c %@ "
+    candidate_list_layout: linear
     comment_text_color: 0x999999
     corner_radius: 5
+    font_face: TsangerJinKai03
     font_point: 20
     hilited_candidate_back_color: 0xFFF0E4
     hilited_candidate_text_color: 0xeefa3a0a
@@ -203,27 +206,27 @@ preset_color_schemes:
     spacing: 10
   mojave_dark:
     author: "xiehuc <xiehuc@gmail.com>"
-    back_color: 0x252320
-    border_color: 0x020202
+    back_color: 0x3c3c3c
+    border_color: 0x3c3c3c
     border_color_width: 0
     border_height: 6
-    border_width: 6
+    border_width: 12
     candidate_format: "%c %@"
+    candidate_list_layout: linear
     candidate_text_color: 0xdedddd
     comment_text_color: 0xdedddd
     corner_radius: 5
-    font_face: PingFangSC
-    font_point: 16
-    hilited_back_color: 0x252320
-    hilited_candidate_back_color: 0xcb5d00
-    hilited_candidate_label_color: 0xffffff
-    hilited_candidate_text_color: 0xffffff
-    hilited_corner_radius: 3
+    font_face: TsangerJinKai03
+    font_point: 20
+    hilited_back_color: 0x3c3c3c
+    hilited_candidate_label_color: 0xefefef
+    hilited_candidate_text_color: 0xefefef
+    hilited_corner_radius: 0
     hilited_text_color: 0xdedddd
     horizontal: true
     inline_preedit: true
     label_color: 0x888785
-    label_font_point: 14
+    label_font_point: 13
     name: "沙漠夜／Mojave Dark"
     text_color: 0xdedddd
   psionics:
@@ -286,8 +289,45 @@ preset_color_schemes:
     hilited_text_color: 0xfecb96
     name: "星際我爭霸／StarCraft"
     text_color: 0xccaa88
+  wechat_dark:
+    back_color: 0x2e2925
+    border_height: 0
+    border_width: 8
+    candidate_format: "%c %@ "
+    candidate_list_layout: linear
+    candidate_text_color: 0xe9e9ea
+    comment_text_color: 0x999999
+    corner_radius: 5
+    font_face: TsangerJinKai03
+    font_point: 20
+    hilited_candidate_back_color: 0x75B100
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_corner_radius: 5
+    horizontal: true
+    inline_preedit: true
+    label_color: 0x999999
+    label_font_point: 16
+    name: "微信键盘深色"
+    text_color: 0x424242
+  wechat_light:
+    back_color: 0xFFFFFF
+    border_height: 0
+    border_width: 8
+    candidate_format: "%c %@ "
+    candidate_list_layout: linear
+    comment_text_color: 0x999999
+    corner_radius: 5
+    font_face: TsangerJinKai03
+    font_point: 20
+    hilited_candidate_back_color: 0x75B100
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_corner_radius: 5
+    inline_preedit: true
+    label_font_point: 16
+    name: "微信键盘浅色"
+    text_color: 0x424242
 show_notifications_via_notification_center: true
 show_notifications_when: appropriate
 style:
-  color_scheme: apathy
-us_keyboard_layout: false
+  color_scheme: wechat_light
+  color_scheme_dark: wechat_dark

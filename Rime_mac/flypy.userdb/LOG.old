@@ -1,3 +1,7 @@
-2022/02/23-17:41:36.953832 7ff5a1af9700 Recovering log #180
-2022/02/23-17:41:36.955504 7ff5a1af9700 Delete type=0 #180
-2022/02/23-17:41:36.955520 7ff5a1af9700 Delete type=3 #178
+2024/09/22-00:39:05.208931 0x1f7d58c00 Recovering log #218
+2024/09/22-00:39:05.223606 0x1f7d58c00 Delete type=3 #217
+2024/09/22-00:39:05.223679 0x1f7d58c00 Delete type=2 #219
+2024/09/22-00:39:05.223695 0x1f7d58c00 Delete type=0 #218
+2024/09/22-00:39:05.224141 0x16bedf000 Compacting 4@0 + 1@1 files
+2024/09/22-00:39:05.229420 0x16bedf000 compacted to: files[ 4 1 0 0 0 0 0 ]
+2024/09/22-00:39:05.230158 0x16bedf000 Compaction error: Corruption: corrupted compressed block contents

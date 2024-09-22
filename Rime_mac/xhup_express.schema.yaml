@@ -55,7 +55,7 @@ speller:
   delimiter: " ;'"
 
 translator:
-  dictionary: flypy
+  dictionary: flypyzc.extended
   enable_charset_filter: true
   enable_encoder: true
   enable_sentence: true

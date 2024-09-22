@@ -1,9 +1,10 @@
 var:
-  last_build_time: 1653123890
+  last_build_time: 1727015369
   option:
     simplification: false
   previously_selected_schema: xhup_fluency
   schema_access_time:
     double_pinyin_flypy: 1640662127
     easy_en: 1641280275
-    xhup_fluency: 1641986190
+    xhup_express: 1727011817
+    xhup_fluency: 1727011824

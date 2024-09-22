@@ -1,7 +1,7 @@
 # Rime user dictionary
-#@/db_name	luna_pinyin.userdb
+#@/db_name	luna_pinyin
 #@/db_type	userdb
-#@/rime_version	1.4.0
+#@/rime_version	1.11.2
 #@/tick	96
 #@/user_id	c792ea34-1dd4-48ec-97e0-503b03700865
 ba 	把	c=1 d=0.752014 t=96

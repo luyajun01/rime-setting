@@ -1,0 +1,85 @@
+__build_info:
+  rime_version: 1.11.2
+  timestamps:
+    default: 1717774589
+    default.custom: 1727015363
+    flypydz.custom: 0
+    flypydz.schema: 1726937869
+    key_bindings: 1717774589
+    key_bindings.custom: 0
+    punctuation: 1717774589
+    punctuation.custom: 0
+engine:
+  filters:
+    - uniquifier
+  processors:
+    - ascii_composer
+    - key_binder
+    - speller
+    - recognizer
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+key_binder:
+  bindings:
+    - {accept: minus, send: Page_Up, when: paging}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: comma, send: Page_Up, when: paging}
+    - {accept: period, send: Page_Down, when: has_menu}
+    - {accept: bracketleft, send: Page_Up, when: paging}
+    - {accept: bracketright, send: Page_Down, when: has_menu}
+  import_preset: default
+menu:
+  page_size: 3
+recognizer:
+  import_preset: default
+  patterns:
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+schema:
+  author:
+    - "方案设计：何海峰 <flypy@qq.com>"
+  description: |
+    小鹤音形输入法反查词库
+
+  name: "小鹤音形反查"
+  schema_id: flypydz
+  version: 20240724
+speller:
+  algebra:
+    - "derive/^[a-z]{4}$/````/"
+    - "derive/^[a-z]{3}([a-z])$/```$1/"
+    - "derive/^[a-z]{2}([a-z])[a-z]$/``$1`/"
+    - "derive/^[a-z]{2}([a-z]{2})$/``$1/"
+    - "derive/^[a-z]([a-z])[a-z]{2}$/`$1``/"
+    - "derive/^[a-z]([a-z])[a-z]([a-z])$/`$1`$2/"
+    - "derive/^[a-z]([a-z]{2})[a-z]$/`$1`/"
+    - "derive/^[a-z]([a-z]{3})$/`$1/"
+    - "derive/^([a-z])[a-z]{3}$/$1```/"
+    - "derive/^([a-z])[a-z]{2}([a-z])$/$1``$2/"
+    - "derive/^([a-z])[a-z]([a-z])[a-z]$/$1`$2`/"
+    - "derive/^([a-z])[a-z]([a-z]{2})$/$1`$2/"
+    - "derive/^([a-z]{2})[a-z]{2}$/$1``/"
+    - "derive/^([a-z]{2})[a-z]([a-z])$/$1`$2/"
+    - "derive/^([a-z]{3})[a-z]$/$1`/"
+  alphabet: "abcdefghijklmnopqrstuvwxyz;'`"
+  finals: "'"
+switches:
+  - name: ascii_mode
+    reset: 0
+translator:
+  dictionary: flypydz
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+  enable_charset_filter: false
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false

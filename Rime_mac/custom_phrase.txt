@@ -1,6 +1,6 @@
 # Rime table
 # coding: utf-8
-#@/db_name  custom_phrase.txt
+#@/db_name	custom_phrase.txt
 #@/db_type	tabledb
 #
 # 用於【朙月拼音】系列輸入方案
@@ -19,7 +19,6 @@
 Rime	rime	4
 鼠须管	rime	3
 马尔可夫	mekf	1
-均值        jyvi    1
 均值	jyvi	1
 征信	vgxb	1
 知道	vidc	1
@@ -40,8 +39,8 @@ Rime	rime	4
 直到	vidc	1
 梳理	uuli	1
 厚尾	hzww	2
-正态分布      vgtdffbu  1
-债券		  vdjr		1
+正态分布	vgtdffbu	1
+债券	vdjr	1
 建模	jmmo	1
 https://rime.im/	rime	2
 Squirrel	rime	1
@@ -65,7 +64,6 @@ Android	az
 App Cleaner & Uninstaller	acu
 Chrome	ch	2
 Clubhouse	ch
-Chrome  ch  100
 Command	cm	1
 Control	ct	2
 CarPlay	cp	1
@@ -131,7 +129,6 @@ Telegram	tg
 Twitter	tt
 Type-C	tc
 Typora	ty
-TeamViewer  tv
 USB-C	uc
 V2EX	ve
 WhatsApp	wa
